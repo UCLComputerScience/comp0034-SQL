@@ -102,3 +102,7 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# Exercise files - update when the course starts!
+IndEx1_STU_NUM.py
+IndEx1_STU_NUM.sql
