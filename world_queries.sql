@@ -2,7 +2,7 @@
 SELECT name, code FROM countries;
 SELECT language FROM languages;
 SELECT DISTINCT language FROM languages;
-SELECT name, population FROM cities WHERE country_code = "FSM";
+SELECT name, population FROM cities WHERE country_code = 'FSM';
 SELECT name, gnp FROM countries WHERE gnp > 2000000;
 SELECT * FROM cities WHERE country_code = 'USA' AND population >= 2000000;
 SELECT code, name, population FROM countries WHERE name LIKE 'United%';
