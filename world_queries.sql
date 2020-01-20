@@ -10,6 +10,6 @@ SELECT code, name, population FROM countries WHERE name LIKE 'United%' ORDER BY 
 SELECT * FROM countries ORDER BY population DESC;
 SELECT * FROM countries ORDER BY population DESC, gnp;
 SELECT name FROM cities WHERE name LIKE 'K%' LIMIT 5;
-SELECT COUNT (*) FROM countries;
+SELECT COUNT(*) FROM countries;
 SELECT COUNT(*) AS total_cust FROM countries;
 SELECT continent, COUNT(name) FROM countries GROUP BY continent;
