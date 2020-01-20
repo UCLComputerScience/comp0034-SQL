@@ -4,8 +4,8 @@ from mysql.connector import errorcode
 # 1. Create the connection object (replace with your username and password for mysql)
 conn = mysql.connector.connect(
     host="localhost",
-    user=”username",  # Replace with your MySQL user name
-    passwd=”pwd",  # Replace with your MySQL password 
+    user="username",  # Replace with your MySQL user name
+    passwd="pwd",  # Replace with your MySQL password 
     port=8889  # Replace with your port number
 )
 
