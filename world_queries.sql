@@ -1,4 +1,4 @@
-/*Queries from the lecture slides*/
+/* Queries from the lecture slides */
 SELECT name, code FROM countries;
 SELECT language FROM languages;
 SELECT DISTINCT language FROM languages;
