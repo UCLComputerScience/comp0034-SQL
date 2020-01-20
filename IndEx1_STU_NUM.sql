@@ -1,6 +1,6 @@
 /*
-Write queries to answer the following questions
-Save your work to this .sql file
+Write SQL queries that can be executed on the chinook.sqlite database to provide answers the following questions.
+Save your SQL to this .sql file. Do not include the query results.
 Right click on the file name in the Project pane and select Refactor > Rename, and replace STU_NUM with your student number.
 */
 
