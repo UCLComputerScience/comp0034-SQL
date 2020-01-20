@@ -1,14 +1,12 @@
 import mysql.connector
 from mysql.connector import errorcode
 
-DB_NAME = 'address_mysql'
-
 # 1. Create the connection object (replace with your username and password for mysql)
 conn = mysql.connector.connect(
     host="localhost",
-    user="comp0034",
-    passwd="c0mpoo34",
-    port=8889
+    user=”username",  # Replace with your MySQL user name
+    passwd=”pwd",  # Replace with your MySQL password 
+    port=8889  # Replace with your port number
 )
 
 # 2. Create the cursor object
