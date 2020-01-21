@@ -8,8 +8,8 @@ Right click on the file name in the Project pane and select Refactor > Rename, a
 
 --2. List the names of all Artists and the titles of their albums
 
---3. Which track is features on the greatest number of times in playlists and how many times is it included? (display Trac
+--3. Which track(s) features the greatest number of times in playlists and how many times is it/are they included? (list Track name and the total number of appearances in playlists).
 
 --4. Provide a list of the number of tracks by each artist
 
---5. How much money has been invoiced for the artist Deep Purple? (display each line item from the invoices and the total amount)
+--5. How much money has been invoiced for the artist Deep Purple? (For this you can create two queries, one that shows the line item from the invoices and the total amount per line, and another that sums the totals from each line)
